@@ -31,10 +31,10 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
+	# "InstallAdobe",
 	"Install7Zip",
 	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
+	# "InstallMediaPlayerClassic",
 
 	### Windows Apps
 	"DebloatAll",
@@ -62,7 +62,7 @@ $tweaks = @(
 	"SetUACLow",                  # "SetUACHigh",
 	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
 	# "DisableAdminShares",           # "EnableAdminShares",
-	"DisableSMB1",                # "EnableSMB1",
+	# "DisableSMB1",                # "EnableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
 	# "DisableLLMNR",               # "EnableLLMNR",
 	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
@@ -86,7 +86,7 @@ $tweaks = @(
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
 	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
+	# "EnableRemoteDesktop",          # "DisableRemoteDesktop",
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
 	"DisableStorageSense",        # "EnableStorageSense",
@@ -114,7 +114,7 @@ $tweaks = @(
 	"HideTaskView",                 # "ShowTaskView",
 	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
 	# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
-	# "HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
+	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
 	"ShowTrayIcons",                # "HideTrayIcons",
 	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
 	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
@@ -127,7 +127,7 @@ $tweaks = @(
 
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
-	# "ShowHiddenFiles",              # "HideHiddenFiles",
+	"ShowHiddenFiles",              # "HideHiddenFiles",
 	"HideSyncNotifications"         # "ShowSyncNotifications",
 	# "HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
@@ -151,21 +151,21 @@ $tweaks = @(
 	# "DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
-	"DisableOneDrive",              # "EnableOneDrive",
-	"UninstallOneDrive",            # "InstallOneDrive",
+	# "DisableOneDrive",              # "EnableOneDrive",
+	# "UninstallOneDrive",            # "InstallOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
 	# "DisableXboxFeatures",          # "EnableXboxFeatures",
 	"DisableAdobeFlash",            # "EnableAdobeFlash",
-	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
+	# "InstallMediaPlayer", 		# "UninstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
 	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
 	# "InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
-	"InstallPDFPrinter",		# "UninstallPDFPrinter",
+	# "InstallPDFPrinter",		# "UninstallPDFPrinter",
 	# "UninstallXPSPrinter",          # "InstallXPSPrinter",
 	# "RemoveFaxPrinter",             # "AddFaxPrinter",
 
@@ -2556,7 +2556,7 @@ Function DebloatAll {
         "*Flipboard*"
         "*Twitter*"
         "*Facebook*"
-        "*Spotify*"
+        # "*Spotify*"
         "*Royal Revolt*"
         "*Sway*"
         "*Speed Test*"
